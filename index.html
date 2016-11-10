@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BattleCraft</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js"></script>
+  	<script src="https://code.jquery.com/jquery-git.js"></script>
+    <script src="//cdn.jsdelivr.net/phaser/2.6.2/phaser.js"></script>
+    <script src="assets/js/game.js"></script>
+  </head>
+<body>
+<div id="container">
+  <h1>BattleCraft</h1>
+  <div id="focus" tabindex="-1">
+    <div id="playground">
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">×</span>
+          <h1>High Scores</h1>
+          <table id="leaderboardTable">
+            <tr>
+              <th>Name</th>
+              <th></th>
+              <th>Score</th>
+            </tr>
+          </table>
+          <input type="text" id="nameInput" maxlength="10" placeholder="Enter your name">
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

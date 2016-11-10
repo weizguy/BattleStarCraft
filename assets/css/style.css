@@ -1,0 +1,116 @@
+
+body{
+  color: white;
+  background-color: black;
+  background-image: url('../images/scbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#playground {
+  height: 800px;
+  border-radius: 25px;
+  border: 5px solid lightskyblue;
+  background-position: center;
+  background-color: black;
+  padding: 20px;
+
+}
+
+#container {
+  top: 50px;
+  margin: auto;
+  width: 1200px;
+  text-align: center;
+}
+
+h1 {
+	text-align: left;
+	color: lightskyblue;
+  font-size: 36px;
+}
+
+input {
+  font-size: 24px;
+}
+
+input[type=text] {
+  color: lightgray;
+  border: 2px solid lightskyblue;
+  border-radius: 15px;
+  background-color: transparent;
+  text-align: center;
+}
+
+
+/* Leaderboard */
+#leaderboardTable {
+  margin: 0 auto 20px auto;
+  text-align: center;
+  border: 0;
+  width: 200px;
+}
+
+#nameInput {
+  width: 200px;
+}
+
+#messageInput {
+  width: 68%;
+}
+
+#highestScore {
+  margin-top: 20px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  font-family: 'Orbitron', sans-serif;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 1100px;
+  text-align: center;
+  margin: 25px;
+  top: 150px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  margin: 15% 100px; /* 15% from the top and centered */
+  padding: 20px;
+  border: 3px solid mediumaquamarine;
+  width: 80%; /* Could be more or less, depending on screen size */
+  border-radius: 15px;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: aquamarine;
+  text-align: center;
+}
+
+.modal-content h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: aqua;
+  text-decoration: none;
+  cursor: pointer;
+}
